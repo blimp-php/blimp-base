@@ -1,5 +1,5 @@
 {
-    "name": "blimp/blimp-backend",
+    "name": "blimp/blimp-base",
     "type": "library",
     "description": "Blimp framework",
     "license": "LGPL-3.0+",
@@ -12,7 +12,6 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
         "monolog/monolog": "1.11.*",
         "pimple/pimple": "~3.0",
         "symfony/http-foundation": "2.5.*",
@@ -21,9 +20,7 @@
         "symfony/config": "2.5.*",
         "symfony/yaml": "2.5.*",
         "symfony/security": "2.5.*",
-        "symfony/templating": "2.5.*",
-        "doctrine/mongodb-odm": "1.0.*@dev",
-        "gedmo/doctrine-extensions": "2.3.*"
+        "symfony/templating": "2.5.*"
     },
     "autoload": {
         "psr-4": {
