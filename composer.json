@@ -1,0 +1,33 @@
+{
+    "name": "blimp/blimp-backend",
+    "type": "library",
+    "description": "Blimp framework",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "Nelson Antunes",
+            "email": "nelson.antunes@gmail.com",
+            "homepage": "http://nantunes.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "monolog/monolog": "1.11.*",
+        "pimple/pimple": "~3.0",
+        "symfony/http-foundation": "2.5.*",
+        "symfony/http-kernel": "2.5.*",
+        "symfony/routing": "2.5.*",
+        "symfony/config": "2.5.*",
+        "symfony/yaml": "2.5.*",
+        "symfony/security": "2.5.*",
+        "symfony/templating": "2.5.*",
+        "doctrine/mongodb-odm": "1.0.*@dev",
+        "gedmo/doctrine-extensions": "2.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blimp\\": "src/Blimp"
+        }
+    }
+}

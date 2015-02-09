@@ -1,0 +1,32 @@
+{
+  "name": "blimp/blimp-security",
+  "type": "library",
+  "description": "Blimp framework - Security",
+  "keywords": [],
+  "homepage": "https://github.com",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "Nelson Antunes",
+      "email": "nelson.antunes@gmail.com"
+    }
+  ],
+  "require" : {
+    "symfony/security": "2.6.*@dev",
+    "doctrine/dbal": "2.5.*@dev",
+    "doctrine/mongodb-odm": "1.0.*@dev",
+    "doctrine/cache": "1.4.*@dev",
+    "gedmo/doctrine-extensions": "2.3.*@dev",
+    "jmikola/geojson": "1.0.*@dev",
+    "pimple/pimple": "~3.0"
+  },
+  "autoload": {
+    "psr-4": {"Blimp\\Security\\": ""}
+  },
+  "minimum-stability": "dev",
+  "extra": {
+      "branch-alias": {
+          "dev-master": "0.1-dev"
+      }
+  }
+}
