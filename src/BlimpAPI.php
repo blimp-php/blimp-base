@@ -18,6 +18,10 @@ class BlimpAPI extends Container {
 
         $this['blimp.package_roots'] = array_merge(['Blimp'], $package_roots);
 
+        $this['config'] = function () {
+            return [];
+        };
+
         $this['blimp.extend'] = function () {
             return true;
         };

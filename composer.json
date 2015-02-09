@@ -13,8 +13,6 @@
     ],
     "require": {
         "pimple/pimple": "~3.0",
-        "symfony/config": "2.5.*",
-        "symfony/yaml": "2.5.*",
         "psr/log": "~1.0"
     },
     "suggest": {
@@ -22,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Blimp\\": "src"
+            "Blimp\\Base\\": "src"
         }
     }
 }
