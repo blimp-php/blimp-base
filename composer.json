@@ -12,6 +12,7 @@
         }
     ],
     "require": {
+        "php": ">=5.4.0",
         "pimple/pimple": "~3.0",
         "psr/log": "~1.0"
     },
@@ -21,6 +22,11 @@
     "autoload": {
         "psr-4": {
             "Blimp\\Base\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
         }
     }
 }
