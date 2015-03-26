@@ -1,5 +1,6 @@
 {
     "name": "blimp/blimp-base",
+    "version": "0.1.3",
     "type": "library",
     "description": "Blimp framework",
     "license": "LGPL-3.0+",
