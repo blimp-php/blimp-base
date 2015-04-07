@@ -8,7 +8,7 @@ class BlimpAPI extends Container {
     public function __construct($package_roots = [], $logger = null, $debug = false) {
         parent::__construct();
 
-        if($logger == null) {
+        if ($logger == null) {
             $logger = new NullLogger();
         }
 
